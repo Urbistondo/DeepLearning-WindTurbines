@@ -3,6 +3,7 @@ import seaborn
 from matplotlib import pyplot as plt
 
 from util import preprocessor as p
+import os
 
 
 # '../output/trainings/101/27037/predictions.csv'
@@ -10,12 +11,45 @@ from util import preprocessor as p
 # '../output/trainings/101/27037/complete_predictions.csv'
 
 
-full = p.read_data('../input/preprocessed_combined/full.csv')
-full = full[['unixtime', 'WTRFPhase3Temp', 'WGENPhase3Temp',
-             'WTRMBearTemp', 'WGENPhase2Temp', 'WTRFPhase1Temp',
-             'WGENPhase1Temp', 'WCNVHeaterTempBott', 'WNACNacelleTemp',
-             'WTRFPhase2Temp', 'WTURStatus', 'WTURPowerMin10min', 'WROTPitchAngleAvgMax10min', 'WGENBearNDETemp']]
-p.save_csv(full, '../input/relevant', 'relevant.csv')
+# input_dir = '../input/preprocessed_peaks/train'
+# for f in os.listdir(input_dir):
+#     data = p.read_data('%s/%s' % (input_dir, f))
+#     plt.plot(data['WGENBearNDETemp'])
+#     plt.show()
+
+
+input_dir = '../input/preprocessed_peaks/train'
+dataframes = []
+for f in os.listdir(input_dir):
+    data = p.read_data('%s/%s' % (input_dir, f))
+    if type(data) == pd.DataFrame:
+        dataframes.append(data)
+full_data = pd.concat(dataframes)
+print(full_data)
+p.save_csv(full_data, '../input/preprocessed_peaks/train', 'full.csv')
+
+input_dir = '../input/preprocessed_peaks/test'
+dataframes.clear()
+for f in os.listdir(input_dir):
+    data = p.read_data('%s/%s' % (input_dir, f))
+    if type(data) == pd.DataFrame:
+        dataframes.append(data)
+full_data = pd.concat(dataframes)
+p.save_csv(full_data, '../input/preprocessed_peaks/test', 'full.csv')
+
+
+# mydata1 = p.read_data('../input/preprocessed_peaks/train/full.csv')
+# print(mydata1['WGENBearNDETemp'])
+# mydata2 = p.read_data('../input/preprocessed_peaks/test/full.csv')
+# print(mydata2['WGENBearNDETemp'])
+
+
+# full = p.read_data('../input/preprocessed_combined/full.csv')
+# full = full[['unixtime', 'WTRFPhase3Temp', 'WGENPhase3Temp',
+#              'WTRMBearTemp', 'WGENPhase2Temp', 'WTRFPhase1Temp',
+#              'WGENPhase1Temp', 'WCNVHeaterTempBott', 'WNACNacelleTemp',
+#              'WTRFPhase2Temp', 'WTURStatus', 'WTURPowerMin10min', 'WROTPitchAngleAvgMax10min', 'WGENBearNDETemp']]
+# p.save_csv(full, '../input/relevant', 'relevant.csv')
 
 
 # my_predictions = p.read_data('../output/old_trainings/161/27037/predictions.csv')
