@@ -1,0 +1,1 @@
+This directory contains the code relative to the power model using Google's TensorFlow framework.

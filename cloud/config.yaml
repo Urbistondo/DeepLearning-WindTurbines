@@ -1,0 +1,17 @@
+trainingInput:
+  scaleTier: BASIC_GPU
+#  hyperparameters:
+#    goal: MINIMIZE
+#    maxTrials: 2
+#    maxParallelTrials: 1
+#    params:
+#    - parameterName: batch-size
+#      type: INTEGER
+#      minValue: 5000
+#      maxValue: 10000
+#      scaleType: UNIT_LINEAR_SCALE
+#    - parameterName: epochs
+#      type: INTEGER
+#      minValue: 50
+#      maxValue: 100
+#      scaleType: UNIT_LINEAR_SCALE

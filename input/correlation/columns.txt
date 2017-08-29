@@ -1,0 +1,5 @@
+WGENBearNDETemp
+WTRFPhase3Temp, WGENPhase3Temp, WTRMBearTemp, WGENPhase2Temp, WTRFPhase1Temp, WGENPhase1Temp, WCNVHeaterTempBott, WNACNacelleTemp, WTRFPhase2Temp
+
+WGENBearDETemp
+WGENPhase3Temp, WGENPhase2Temp, WGENPhase1Temp, WCNVHeaterTempBott, WCNVHeaterTempSup, WCNVCoolantTemp, WNACNacelleTemp
