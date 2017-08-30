@@ -7,7 +7,8 @@ import pandas as pd
 
 
 input_data = None
-header = ['unixtime', 'STREQ', 'WTURNativeStatus', 'WROTPitchAngleAvgFreq',
+header = ['unixtime', 'MONTH', 'DAY', 'HOUR', 'MINUTE', 'STREQ',
+          'WTURNativeStatus', 'WROTPitchAngleAvgFreq',
           'WHDRGroupOilPressFreq', 'WROTPitchAngleAvgTravNeg',
           'WGENStatorCur', 'WGENSpeed', 'WROTSpeed', 'WNACWindSpeed',
           'WTURPower', 'WGENSpeedFreq', 'WCNVCoolantPress', 'WTRFPhase3Temp',
@@ -118,24 +119,41 @@ def generate_ind_peak(row):
         return 1
 
 
+def generate_year(row):
+    return datetime.fromtimestamp(row['unixtime']).year
+
+
+def generate_month(row):
+    return datetime.fromtimestamp(row['unixtime']).month
+
+
+def generate_day(row):
+    return datetime.fromtimestamp(row['unixtime']).day
+
+
+def generate_hour(row):
+    return datetime.fromtimestamp(row['unixtime']).hour
+
+
+def generate_minute(row):
+    return datetime.fromtimestamp(row['unixtime']).minute
+
+
 def create_conditions(output_dir):
     global input_data
     input_data['IND1'] = input_data.apply(generate_ind_1, axis = 1)
-    # input_data['IND6'] = input_data.apply(generate_ind_6, axis = 1)
-    # input_data['IND8'] = input_data.apply(generate_ind_8, axis = 1)
-    # input_data['IND13'] = input_data.apply(generate_ind_13, axis = 1)
-    # input_data['IND228'] = input_data.apply(generate_ind_228, axis = 1)
-    # input_data['IND230'] = input_data.apply(generate_ind_230, axis = 1)
-    # input_data['IND263'] = input_data.apply(generate_ind_263, axis = 1)
-    # input_data['IND276'] = input_data.apply(generate_ind_276, axis = 1)
-    # input_data['IND277'] = input_data.apply(generate_ind_277, axis = 1)
-    # input_data['IND672'] = input_data.apply(generate_ind_672, axis = 1)
-    # input_data['IND673'] = input_data.apply(generate_ind_673, axis = 1)
-    # input_data['IND2822'] = input_data.apply(generate_ind_2822, axis = 1)
-    # input_data['IND2823'] = input_data.apply(generate_ind_2823, axis = 1)
-    # input_data2 = input_data[['unixtime', 'IND1', 'IND13','IND263','IND277',
-    #                         'IND673','IND2823']]
-    # save_csv(input_data2, '../input/og_raw', 'inds.csv')
+    input_data['IND6'] = input_data.apply(generate_ind_6, axis = 1)
+    input_data['IND8'] = input_data.apply(generate_ind_8, axis = 1)
+    input_data['IND13'] = input_data.apply(generate_ind_13, axis = 1)
+    input_data['IND228'] = input_data.apply(generate_ind_228, axis = 1)
+    input_data['IND230'] = input_data.apply(generate_ind_230, axis = 1)
+    input_data['IND263'] = input_data.apply(generate_ind_263, axis = 1)
+    input_data['IND276'] = input_data.apply(generate_ind_276, axis = 1)
+    input_data['IND277'] = input_data.apply(generate_ind_277, axis = 1)
+    input_data['IND672'] = input_data.apply(generate_ind_672, axis = 1)
+    input_data['IND673'] = input_data.apply(generate_ind_673, axis = 1)
+    input_data['IND2822'] = input_data.apply(generate_ind_2822, axis = 1)
+    input_data['IND2823'] = input_data.apply(generate_ind_2823, axis = 1)
     return input_data
 
 
@@ -143,9 +161,10 @@ def create_peak_conditions(output_dir):
     global input_data
     input_data['IND1'] = input_data.apply(generate_ind_1, axis = 1)
     input_data['INDPEAK'] = input_data.apply(generate_ind_peak, axis = 1)
-    # input_data2 = input_data[['unixtime', 'IND1', 'IND13','IND263','IND277',
-    #                         'IND673','IND2823']]
-    # save_csv(input_data2, '../input/og_raw', 'inds.csv')
+    input_data['MONTH'] = input_data.apply(generate_month, axis = 1)
+    input_data['DAY'] = input_data.apply(generate_day, axis = 1)
+    input_data['HOUR'] = input_data.apply(generate_hour, axis = 1)
+    input_data['MINUTE'] = input_data.apply(generate_minute, axis = 1)
     return input_data
 
 
@@ -307,7 +326,8 @@ def combine_csvs(input_directory, output_directory, file_name):
 def run():
     input_dir = '../input/raw'
     # output_dir = '../input/preprocessed'
-    output_dir = '../input/preprocessed_peaks'
+    # output_dir = '../input/preprocessed_peaks'
+    output_dir = '../input/preprocessed_peaks/without_year'
     initial_train_date = '1/3/2015'
     final_train_date = '30/6/2016'
     initial_predict_date = '1/7/2016'
@@ -318,4 +338,5 @@ def run():
     # preprocess(input_dir, output_dir, initial_predict_date, final_predict_date, 'test')
 
 
-# run()
+if __name__ == '__main__':
+    run()

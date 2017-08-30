@@ -3,8 +3,57 @@
   <component name="ChangeListManager">
     <list default="true" id="9426fda4-255d-4c78-9888-64dea37aa96d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/train.py" afterPath="$PROJECT_DIR$/local/train.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/data_preprocessor.py" afterPath="$PROJECT_DIR$/util/data_preprocessor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27037.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27037.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27038.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27038.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27039.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27039.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27040.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27040.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27041.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27041.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27042.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27042.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27043.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27043.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27044.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27044.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27052.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27052.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27053.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27053.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27054.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27054.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27062.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27062.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27063.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27063.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27064.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27064.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27065.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27065.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27066.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27066.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27067.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27067.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27074.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27074.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27075.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27075.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27076.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27076.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27077.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27077.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27078.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27078.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27079.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27079.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27080.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27080.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/test/27081.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/test/27081.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27037.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27037.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27038.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27038.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27039.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27039.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27040.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27040.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27041.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27041.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27042.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27042.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27043.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27043.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27044.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27044.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27052.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27052.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27053.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27053.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27054.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27054.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27062.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27062.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27063.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27063.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27064.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27064.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27065.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27065.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27066.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27066.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27067.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27067.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27074.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27074.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27075.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27075.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27076.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27076.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27077.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27077.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27078.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27078.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27079.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27079.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27080.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27080.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/preprocessed_peaks/train/27081.csv" afterPath="$PROJECT_DIR$/input/preprocessed_peaks/train/27081.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/model.py" afterPath="$PROJECT_DIR$/local/model.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/preprocessor.py" afterPath="$PROJECT_DIR$/util/preprocessor.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/shootingrange.py" afterPath="$PROJECT_DIR$/util/shootingrange.py" />
     </list>
@@ -18,10 +67,10 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/PeaksModel$data_preprocessor.coverage" NAME="data_preprocessor Coverage Results" MODIFIED="1503990932621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/PeaksModel$train.coverage" NAME="train Coverage Results" MODIFIED="1503904051801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cloud" />
-    <SUITE FILE_PATH="coverage/PeaksModel$shootingrange.coverage" NAME="shootingrange Coverage Results" MODIFIED="1504007591224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
-    <SUITE FILE_PATH="coverage/PeaksModel$train_custom.coverage" NAME="train_custom Coverage Results" MODIFIED="1503990336532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/local" />
-    <SUITE FILE_PATH="coverage/PeaksModel$preprocessor.coverage" NAME="preprocessor Coverage Results" MODIFIED="1504007273880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
-    <SUITE FILE_PATH="coverage/PeaksModel$train_custom_peaks.coverage" NAME="train_custom_peaks Coverage Results" MODIFIED="1504010171938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/local" />
+    <SUITE FILE_PATH="coverage/PeaksModel$shootingrange.coverage" NAME="shootingrange Coverage Results" MODIFIED="1504095493643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/PeaksModel$train_custom.coverage" NAME="train_custom Coverage Results" MODIFIED="1504076718203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/local" />
+    <SUITE FILE_PATH="coverage/PeaksModel$preprocessor.coverage" NAME="preprocessor Coverage Results" MODIFIED="1504095532015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/PeaksModel$train_custom_peaks.coverage" NAME="train_custom_peaks Coverage Results" MODIFIED="1504096691266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/local" />
     <SUITE FILE_PATH="coverage/PeaksModel$data_explorator.coverage" NAME="data_explorator Coverage Results" MODIFIED="1503903973450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
   </component>
   <component name="FileColors">
@@ -35,42 +84,39 @@
       <file leaf-file-name="shootingrange.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/shootingrange.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="230">
+              <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/local/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="216" column="32" lean-forward="false" selection-start-line="216" selection-start-column="32" selection-end-line="216" selection-end-column="32" />
+            <state relative-caret-position="334">
+              <caret line="412" column="24" lean-forward="false" selection-start-line="412" selection-start-column="24" selection-end-line="412" selection-end-column="24" />
               <folding>
                 <element signature="e#672#4807#0" expanded="false" />
                 <element signature="e#4998#6327#1" expanded="false" />
                 <element signature="e#9682#16156#0" expanded="false" />
-                <element signature="e#16190#18776#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/local/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="76" column="51" lean-forward="false" selection-start-line="76" selection-start-column="51" selection-end-line="76" selection-end-column="51" />
+            <state relative-caret-position="219">
+              <caret line="42" column="54" lean-forward="false" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
                 <element signature="e#204#414#0" expanded="false" />
                 <element signature="e#461#1162#0" expanded="false" />
-                <element signature="e#1207#1842#0" expanded="false" />
                 <element signature="e#1904#2066#0" expanded="false" />
                 <element signature="e#2129#2713#0" expanded="false" />
+                <element signature="e#2757#2913#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -79,39 +125,47 @@
       <file leaf-file-name="preprocessor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/preprocessor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="320" column="2" lean-forward="false" selection-start-line="320" selection-start-column="2" selection-end-line="320" selection-end-column="2" />
+            <state relative-caret-position="-1990">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
-                <element signature="e#120#1514#0" expanded="false" />
-                <element signature="e#1517#1576#0" expanded="false" />
-                <element signature="e#1882#1980#0" expanded="false" />
-                <element signature="e#2012#2180#0" expanded="false" />
-                <element signature="e#2212#2357#0" expanded="false" />
-                <element signature="e#2389#2538#0" expanded="false" />
-                <element signature="e#2571#2710#0" expanded="false" />
-                <element signature="e#2744#2804#0" expanded="false" />
-                <element signature="e#2838#2869#0" expanded="false" />
-                <element signature="e#2903#2948#0" expanded="false" />
-                <element signature="e#2982#3011#0" expanded="false" />
-                <element signature="e#3045#3090#0" expanded="false" />
-                <element signature="e#3124#3154#0" expanded="false" />
-                <element signature="e#3188#3233#0" expanded="false" />
-                <element signature="e#3268#3297#0" expanded="false" />
-                <element signature="e#3332#3378#0" expanded="false" />
-                <element signature="e#3538#4716#0" expanded="false" />
-                <element signature="e#4763#5133#0" expanded="false" />
-                <element signature="e#5163#5382#0" expanded="false" />
-                <element signature="e#5741#5761#0" expanded="false" />
-                <element signature="e#5799#5989#0" expanded="false" />
-                <element signature="e#6045#6240#0" expanded="false" />
-                <element signature="e#6291#7092#0" expanded="false" />
-                <element signature="e#6468#6494#0" expanded="false" />
-                <element signature="e#7141#7277#0" expanded="false" />
-                <element signature="e#7355#8377#0" expanded="false" />
-                <element signature="e#8461#9493#0" expanded="false" />
-                <element signature="e#9530#9818#0" expanded="false" />
-                <element signature="e#9864#10416#0" expanded="false" />
-                <element signature="e#10487#11089#0" expanded="false" />
+                <element signature="e#120#1558#0" expanded="false" />
+                <element signature="e#1561#1620#0" expanded="false" />
+                <element signature="e#1926#2024#0" expanded="false" />
+                <element signature="e#2056#2224#0" expanded="false" />
+                <element signature="e#2256#2401#0" expanded="false" />
+                <element signature="e#2433#2582#0" expanded="false" />
+                <element signature="e#2615#2754#0" expanded="false" />
+                <element signature="e#2788#2848#0" expanded="false" />
+                <element signature="e#2882#2913#0" expanded="false" />
+                <element signature="e#2947#2992#0" expanded="false" />
+                <element signature="e#3026#3055#0" expanded="false" />
+                <element signature="e#3089#3134#0" expanded="false" />
+                <element signature="e#3168#3198#0" expanded="false" />
+                <element signature="e#3232#3277#0" expanded="false" />
+                <element signature="e#3312#3341#0" expanded="false" />
+                <element signature="e#3376#3422#0" expanded="false" />
+                <element signature="e#3457#3540#0" expanded="false" />
+                <element signature="e#3571#3622#0" expanded="false" />
+                <element signature="e#3654#3706#0" expanded="false" />
+                <element signature="e#3736#3786#0" expanded="false" />
+                <element signature="e#3817#3868#0" expanded="false" />
+                <element signature="e#3901#3954#0" expanded="false" />
+                <element signature="e#3996#4961#0" expanded="false" />
+                <element signature="e#5008#5461#0" expanded="false" />
+                <element signature="e#5491#5710#0" expanded="false" />
+                <element signature="e#5745#6044#0" expanded="false" />
+                <element signature="e#6069#6089#0" expanded="false" />
+                <element signature="e#6127#6317#0" expanded="false" />
+                <element signature="e#6373#6568#0" expanded="false" />
+                <element signature="e#6619#7420#0" expanded="false" />
+                <element signature="e#6796#6822#0" expanded="false" />
+                <element signature="e#7469#7605#0" expanded="false" />
+                <element signature="e#7683#8705#0" expanded="false" />
+                <element signature="e#8789#9821#0" expanded="false" />
+                <element signature="e#9858#10146#0" expanded="false" />
+                <element signature="e#10192#10744#0" expanded="false" />
+                <element signature="e#10815#11417#0" expanded="false" />
+                <element signature="e#11435#12121#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -120,8 +174,8 @@
       <file leaf-file-name="data_preprocessor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util/data_preprocessor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="84" column="48" lean-forward="false" selection-start-line="84" selection-start-column="48" selection-end-line="84" selection-end-column="48" />
+            <state relative-caret-position="529">
+              <caret line="80" column="39" lean-forward="false" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
               <folding>
                 <element signature="e#273#503#0" expanded="false" />
                 <element signature="e#539#1150#0" expanded="false" />
@@ -129,6 +183,7 @@
                 <element signature="e#1844#2363#0" expanded="false" />
                 <element signature="e#2404#2459#0" expanded="false" />
                 <element signature="e#2513#2558#0" expanded="false" />
+                <element signature="e#2605#2792#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -166,12 +221,12 @@
         <option value="$PROJECT_DIR$/cloud/model.py" />
         <option value="$PROJECT_DIR$/cloud/predict.py" />
         <option value="$PROJECT_DIR$/util/data_explorator.py" />
-        <option value="$PROJECT_DIR$/local/model.py" />
         <option value="$PROJECT_DIR$/cloud/train.py" />
         <option value="$PROJECT_DIR$/util/data_preprocessor.py" />
         <option value="$PROJECT_DIR$/local/train.py" />
-        <option value="$PROJECT_DIR$/util/shootingrange.py" />
         <option value="$PROJECT_DIR$/util/preprocessor.py" />
+        <option value="$PROJECT_DIR$/util/shootingrange.py" />
+        <option value="$PROJECT_DIR$/local/model.py" />
       </list>
     </option>
   </component>
@@ -181,7 +236,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -201,6 +256,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,22 +264,10 @@
               <item name="PeaksModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="PeaksModel" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PeaksModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PeaksModel" type="462c0819:PsiDirectoryNode" />
-              <item name="input" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PeaksModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PeaksModel" type="462c0819:PsiDirectoryNode" />
-              <item name="input" type="462c0819:PsiDirectoryNode" />
-              <item name="preprocessed_peaks" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -234,12 +278,12 @@
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jurbistondo\PycharmProjects\PeaksModel\output\top" />
-      <recent name="C:\Users\jurbistondo\PycharmProjects\PeaksModel" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jurbistondo\PycharmProjects\PeaksModel\input\preprocessed_combined" />
+      <recent name="C:\Users\jurbistondo\PycharmProjects\PeaksModel" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jurbistondo\PycharmProjects\PeaksModel\output\top" />
       <recent name="C:\Users\jurbistondo\PycharmProjects\PeaksModel" />
     </key>
   </component>
@@ -378,7 +422,7 @@
       <module name="PeaksModel" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/local/train.py" />
-      <option name="PARAMETERS" value="--train-file ../input/preprocessed_peaks/train/full.csv --predict-file ../input/preprocessed_peaks/test/full.csv --job-dir ../output/trainings/peaks --custom True --batch-size 2 --model-size big --epochs 10 --learning-rate 0.01 --kfold-splits 3 --layers 64 8 2" />
+      <option name="PARAMETERS" value="--train-file ../input/preprocessed_peaks/without_year/train/full.csv --predict-file ../input/preprocessed_peaks/without_year/test/full.csv --job-dir ../output/trainings/new_peaks --custom True --batch-size 2000 --model-size big --epochs 500 --learning-rate 0.0001 --kfold-splits 5 --layers 2 8 16 128 16 8 2" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
@@ -393,8 +437,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.shootingrange" />
-        <item index="1" class="java.lang.String" itemvalue="Python.preprocessor" />
+        <item index="0" class="java.lang.String" itemvalue="Python.preprocessor" />
+        <item index="1" class="java.lang.String" itemvalue="Python.shootingrange" />
         <item index="2" class="java.lang.String" itemvalue="Python.data_preprocessor" />
         <item index="3" class="java.lang.String" itemvalue="Python.train" />
         <item index="4" class="java.lang.String" itemvalue="Python.data_explorator" />
@@ -415,18 +459,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123667374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43046358" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12260128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7472406" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -435,6 +478,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -446,9 +490,9 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5264901" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7472406" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12260128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123667374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -467,18 +511,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="23" />
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/output/trainings/13/27037/performance.txt" />
-    <entry file="file://$PROJECT_DIR$/output/trainings/16/27037/performance.txt" />
-    <entry file="file://$PROJECT_DIR$/output/trainings/1/27037/performance.txt" />
-    <entry file="file://$PROJECT_DIR$/output/trainings/2/27037/performance.txt" />
-    <entry file="file://$PROJECT_DIR$/output/trainings/3/27037/performance.txt" />
-    <entry file="file://$PROJECT_DIR$/output/trainings/4/27037/performance.txt" />
-    <entry file="file://$PROJECT_DIR$/output/trainings/5/27037/performance.txt" />
     <entry file="file://$PROJECT_DIR$/output/trainings/6/27037/performance.txt" />
     <entry file="file://$PROJECT_DIR$/output/trainings/7/27037/performance.txt" />
     <entry file="file://$PROJECT_DIR$/output/trainings/8/27037/performance.txt" />
@@ -638,14 +675,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/raw/27037.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/trainings/new_peaks/42/full/performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/trainings/new_peaks/41/full/performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/trainings/new_peaks/58/full/performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/trainings/new_peaks/59/full/performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/trainings/new_peaks/57/full/performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/trainings/new_peaks/60/full/performance.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/data_preprocessor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="84" column="48" lean-forward="false" selection-start-line="84" selection-start-column="48" selection-end-line="84" selection-end-column="48" />
+        <state relative-caret-position="529">
+          <caret line="80" column="39" lean-forward="false" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
           <folding>
             <element signature="e#273#503#0" expanded="false" />
             <element signature="e#539#1150#0" expanded="false" />
@@ -653,83 +744,89 @@
             <element signature="e#1844#2363#0" expanded="false" />
             <element signature="e#2404#2459#0" expanded="false" />
             <element signature="e#2513#2558#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="76" column="51" lean-forward="false" selection-start-line="76" selection-start-column="51" selection-end-line="76" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#204#414#0" expanded="false" />
-            <element signature="e#461#1162#0" expanded="false" />
-            <element signature="e#1207#1842#0" expanded="false" />
-            <element signature="e#1904#2066#0" expanded="false" />
-            <element signature="e#2129#2713#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/preprocessor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="320" column="2" lean-forward="false" selection-start-line="320" selection-start-column="2" selection-end-line="320" selection-end-column="2" />
-          <folding>
-            <element signature="e#120#1514#0" expanded="false" />
-            <element signature="e#1517#1576#0" expanded="false" />
-            <element signature="e#1882#1980#0" expanded="false" />
-            <element signature="e#2012#2180#0" expanded="false" />
-            <element signature="e#2212#2357#0" expanded="false" />
-            <element signature="e#2389#2538#0" expanded="false" />
-            <element signature="e#2571#2710#0" expanded="false" />
-            <element signature="e#2744#2804#0" expanded="false" />
-            <element signature="e#2838#2869#0" expanded="false" />
-            <element signature="e#2903#2948#0" expanded="false" />
-            <element signature="e#2982#3011#0" expanded="false" />
-            <element signature="e#3045#3090#0" expanded="false" />
-            <element signature="e#3124#3154#0" expanded="false" />
-            <element signature="e#3188#3233#0" expanded="false" />
-            <element signature="e#3268#3297#0" expanded="false" />
-            <element signature="e#3332#3378#0" expanded="false" />
-            <element signature="e#3538#4716#0" expanded="false" />
-            <element signature="e#4763#5133#0" expanded="false" />
-            <element signature="e#5163#5382#0" expanded="false" />
-            <element signature="e#5741#5761#0" expanded="false" />
-            <element signature="e#5799#5989#0" expanded="false" />
-            <element signature="e#6045#6240#0" expanded="false" />
-            <element signature="e#6291#7092#0" expanded="false" />
-            <element signature="e#6468#6494#0" expanded="false" />
-            <element signature="e#7141#7277#0" expanded="false" />
-            <element signature="e#7355#8377#0" expanded="false" />
-            <element signature="e#8461#9493#0" expanded="false" />
-            <element signature="e#9530#9818#0" expanded="false" />
-            <element signature="e#9864#10416#0" expanded="false" />
-            <element signature="e#10487#11089#0" expanded="false" />
+            <element signature="e#2605#2792#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/shootingrange.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        <state relative-caret-position="230">
+          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/preprocessor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1990">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#120#1558#0" expanded="false" />
+            <element signature="e#1561#1620#0" expanded="false" />
+            <element signature="e#1926#2024#0" expanded="false" />
+            <element signature="e#2056#2224#0" expanded="false" />
+            <element signature="e#2256#2401#0" expanded="false" />
+            <element signature="e#2433#2582#0" expanded="false" />
+            <element signature="e#2615#2754#0" expanded="false" />
+            <element signature="e#2788#2848#0" expanded="false" />
+            <element signature="e#2882#2913#0" expanded="false" />
+            <element signature="e#2947#2992#0" expanded="false" />
+            <element signature="e#3026#3055#0" expanded="false" />
+            <element signature="e#3089#3134#0" expanded="false" />
+            <element signature="e#3168#3198#0" expanded="false" />
+            <element signature="e#3232#3277#0" expanded="false" />
+            <element signature="e#3312#3341#0" expanded="false" />
+            <element signature="e#3376#3422#0" expanded="false" />
+            <element signature="e#3457#3540#0" expanded="false" />
+            <element signature="e#3571#3622#0" expanded="false" />
+            <element signature="e#3654#3706#0" expanded="false" />
+            <element signature="e#3736#3786#0" expanded="false" />
+            <element signature="e#3817#3868#0" expanded="false" />
+            <element signature="e#3901#3954#0" expanded="false" />
+            <element signature="e#3996#4961#0" expanded="false" />
+            <element signature="e#5008#5461#0" expanded="false" />
+            <element signature="e#5491#5710#0" expanded="false" />
+            <element signature="e#5745#6044#0" expanded="false" />
+            <element signature="e#6069#6089#0" expanded="false" />
+            <element signature="e#6127#6317#0" expanded="false" />
+            <element signature="e#6373#6568#0" expanded="false" />
+            <element signature="e#6619#7420#0" expanded="false" />
+            <element signature="e#6796#6822#0" expanded="false" />
+            <element signature="e#7469#7605#0" expanded="false" />
+            <element signature="e#7683#8705#0" expanded="false" />
+            <element signature="e#8789#9821#0" expanded="false" />
+            <element signature="e#9858#10146#0" expanded="false" />
+            <element signature="e#10192#10744#0" expanded="false" />
+            <element signature="e#10815#11417#0" expanded="false" />
+            <element signature="e#11435#12121#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/local/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="216" column="32" lean-forward="false" selection-start-line="216" selection-start-column="32" selection-end-line="216" selection-end-column="32" />
+        <state relative-caret-position="334">
+          <caret line="412" column="24" lean-forward="false" selection-start-line="412" selection-start-column="24" selection-end-line="412" selection-end-column="24" />
           <folding>
             <element signature="e#672#4807#0" expanded="false" />
             <element signature="e#4998#6327#1" expanded="false" />
             <element signature="e#9682#16156#0" expanded="false" />
-            <element signature="e#16190#18776#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="42" column="54" lean-forward="false" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#204#414#0" expanded="false" />
+            <element signature="e#461#1162#0" expanded="false" />
+            <element signature="e#1904#2066#0" expanded="false" />
+            <element signature="e#2129#2713#0" expanded="false" />
+            <element signature="e#2757#2913#0" expanded="false" />
           </folding>
         </state>
       </provider>

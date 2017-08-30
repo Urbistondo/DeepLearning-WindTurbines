@@ -40,7 +40,7 @@ def big_model(layers, learning_rate):
     first = True
     for layer in layers:
         if first:
-            model.add(LSTM(layer, input_shape = (1, 48),
+            model.add(LSTM(layer, input_shape = (1, 52),
                            return_sequences = True,
                            kernel_initializer = 'he_normal'))
             first = False

@@ -18,7 +18,7 @@ import os
 #     plt.show()
 
 
-input_dir = '../input/preprocessed_peaks/train'
+input_dir = '../input/preprocessed_peaks/without_year/train'
 dataframes = []
 for f in os.listdir(input_dir):
     data = p.read_data('%s/%s' % (input_dir, f))
@@ -26,16 +26,16 @@ for f in os.listdir(input_dir):
         dataframes.append(data)
 full_data = pd.concat(dataframes)
 print(full_data)
-p.save_csv(full_data, '../input/preprocessed_peaks/train', 'full.csv')
+p.save_csv(full_data, '../input/preprocessed_peaks/without_year/train', 'full.csv')
 
-input_dir = '../input/preprocessed_peaks/test'
+input_dir = '../input/preprocessed_peaks/without_year/test'
 dataframes.clear()
 for f in os.listdir(input_dir):
     data = p.read_data('%s/%s' % (input_dir, f))
     if type(data) == pd.DataFrame:
         dataframes.append(data)
 full_data = pd.concat(dataframes)
-p.save_csv(full_data, '../input/preprocessed_peaks/test', 'full.csv')
+p.save_csv(full_data, '../input/preprocessed_peaks/without_year/test', 'full.csv')
 
 
 # mydata1 = p.read_data('../input/preprocessed_peaks/train/full.csv')
