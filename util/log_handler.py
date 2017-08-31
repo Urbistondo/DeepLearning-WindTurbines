@@ -17,11 +17,14 @@ def create_log(dir):
 
 
 def log_performance(model, results, datetimes, real_power, predictions, output_dir, job_name,
-                    file_name, run = -1):
+                    file_name, target, run = -1):
     if not os.path.isdir('%s/%d' % (output_dir, job_name)):
         os.mkdir('%s/%d' % (output_dir, job_name))
     directory = '%s/%d/%s' % (output_dir, job_name, file_name)
-    if not os.path.isdir('%s/%d/%s' % (output_dir, job_name, file_name)):
+    if not os.path.isdir(directory):
+        os.mkdir(directory)
+    directory = '%s/%s' % (directory, target)
+    if not os.path.isdir(directory):
         os.mkdir(directory)
     if run != -1:
         directory = '%s/%d/%s/%d' % (output_dir, job_name, file_name, run)

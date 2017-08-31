@@ -160,7 +160,7 @@ def create_conditions(output_dir):
 def create_peak_conditions(output_dir):
     global input_data
     input_data['IND1'] = input_data.apply(generate_ind_1, axis = 1)
-    input_data['INDPEAK'] = input_data.apply(generate_ind_peak, axis = 1)
+    # input_data['INDPEAK'] = input_data.apply(generate_ind_peak, axis = 1)
     input_data['MONTH'] = input_data.apply(generate_month, axis = 1)
     input_data['DAY'] = input_data.apply(generate_day, axis = 1)
     input_data['HOUR'] = input_data.apply(generate_hour, axis = 1)
@@ -170,16 +170,11 @@ def create_peak_conditions(output_dir):
 
 def filter_data(data):
     filtered_data = data.loc[data['IND1'] == 1]
-    # filtered_data = filtered_data[['unixtime', 'WNACWindSpeed', 'WNACWindSpeed|TFi|',
-    #                             'WNACAmbTemp', 'WTURPower']]
     return filtered_data
 
 
 def filter_peak_data(data):
     filtered_data = data.loc[(data['IND1'] == 1) & (data['INDPEAK'] == 1)]
-    # filtered_data = data.loc[data['INDPEAK'] == 1]
-    # filtered_data = filtered_data[['unixtime', 'WNACWindSpeed', 'WNACWindSpeed|TFi|',
-    #                             'WNACAmbTemp', 'WTURPower']]
     return filtered_data
 
 
@@ -274,7 +269,7 @@ def preprocess_peaks(input_dir, output_dir, initial_date, final_date, mode):
                                                   final_timestamp)
         input_data = input_data[initial_index:final_index + 1]
         input_data = create_peak_conditions(output_dir)
-        input_data = filter_peak_data(input_data)
+        input_data = filter_data(input_data)
         input_data = input_data[header]
         input_data = input_data.dropna(axis = 'columns', how = 'all')
         header = input_data.columns
@@ -325,9 +320,8 @@ def combine_csvs(input_directory, output_directory, file_name):
 
 def run():
     input_dir = '../input/raw'
-    # output_dir = '../input/preprocessed'
+    output_dir = '../input/preprocessed'
     # output_dir = '../input/preprocessed_peaks'
-    output_dir = '../input/preprocessed_peaks/without_year'
     initial_train_date = '1/3/2015'
     final_train_date = '30/6/2016'
     initial_predict_date = '1/7/2016'

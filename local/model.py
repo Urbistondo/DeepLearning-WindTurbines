@@ -2,7 +2,7 @@ import os
 
 import keras
 from keras.models import Sequential
-from keras.layers import Dense, LSTM, Dropout, Bidirectional
+from keras.layers import Dense, LSTM, Bidirectional
 
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
@@ -15,19 +15,18 @@ def get_optimizer(learning_rate):
     return optimizer
 
 
-def small_model(layers, learning_rate):
+def normal_model(layers, learning_rate):
     model = Sequential()
     first = True
-    for l in layers:
+    for layer in layers:
         if first:
-            model.add(Bidirectional(LSTM(l, input_shape = (1, 3), return_sequences = True,
-                           kernel_initializer = 'he_normal')))
-            # model.add(Dropout(0.3))
+            model.add(LSTM(layer, input_shape = (1, 52),
+                           return_sequences = True,
+                           kernel_initializer = 'he_normal'))
             first = False
         else:
-            model.add(Bidirectional(LSTM(l, return_sequences = True,
-                           kernel_initializer = 'he_normal')))
-            # model.add(Dropout(0.3))
+            model.add(LSTM(layer, return_sequences = True,
+                           kernel_initializer = 'he_normal'))
     model.add(Dense(1, activation = 'relu',
                     kernel_initializer = 'he_normal'))
     model.compile(loss = 'mean_squared_error',
@@ -35,7 +34,7 @@ def small_model(layers, learning_rate):
     return model
 
 
-def big_model(layers, learning_rate):
+def peak_model(layers, learning_rate):
     model = Sequential()
     first = True
     for layer in layers:
