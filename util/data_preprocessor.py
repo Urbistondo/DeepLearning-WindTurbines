@@ -35,38 +35,17 @@ def read_with_tf(file_path):
     return df
 
 
-def get_data(file_path, look_back, model_size):
+def get_data(file_path, look_back, model_size, target):
     if file_path.split('/')[2] == 'nemsolutions-gcp-databucket':
         final_data = read_with_tf(file_path)
     else:
         final_data = preprocessor.read_data(file_path)
-    if model_size == 'small':
-        x = final_data.values[:, 1:4]
-        y = final_data.values[:, 4]
-    else:
-        x = final_data
-        x = x.drop(x.columns[11], axis = 1)
-        y = final_data['WGENBearNDETemp']
-        # x = x.drop(x.columns[18], axis = 1)
-        # y = final_data['WGENBearDETemp']
-    return x.values, y.values
-
-
-#TODO Review rolling window capabilities for more accurate predictions
-def get_data2(file_path, look_back, model_size):
-    if file_path.split('/')[2] == 'nemsolutions-gcp-databucket':
-        final_data = read_with_tf(file_path)
-    else:
-        final_data = preprocessor.read_data(file_path)
-    if model_size == 'small':
-        x = final_data.values[:, 1:4]
-        y = final_data.values[:, 4]
-    else:
-        x = []
-        y = []
-        for i in range(len(final_data) - look_back - 1):
-            x.append(final_data[i:(i + look_back)])
-            y.append(final_data.iloc[i + look_back]['WTURPower'])
+    x = final_data
+    if target == 'WGENBearNDETemp':
+        x = x.drop(x.columns[15], axis = 1)
+    elif target == 'WGENBearDETemp':
+        x = x.drop(x.columns[22], axis = 1)
+    y = final_data[target]
     return x.values, y.values
 
 
