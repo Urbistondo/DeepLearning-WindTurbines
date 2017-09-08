@@ -1,9 +1,12 @@
 from matplotlib import pyplot as plt
 
 
-def show_plot(y, predictions, target, title):
-    plt.plot(y)
-    plt.plot(predictions)
+'''Create and show plot'''
+
+
+def show_plot(data_1, data_2, target, title):
+    plt.plot(data_1)
+    plt.plot(data_2)
     plt.title(title)
     plt.ylabel(target)
     plt.xlabel('Timestep')
@@ -11,6 +14,9 @@ def show_plot(y, predictions, target, title):
     manager = plt.get_current_fig_manager()
     manager.window.showMaximized()
     plt.show()
+
+
+'''Save plot to PNG file'''
 
 
 def save_plot(output_dir, job_name, file_name, target, name, *data, run = -1):

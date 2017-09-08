@@ -1,5 +1,22 @@
+# ScaleTier options are:
+# BASIC	                A single worker instance. This tier is suitable for
+#                       learning how to use Cloud ML Engine and for
+#                       experimenting with new models using small datasets.
+# STANDARD_1	        Many workers and a few parameter servers.
+# PREMIUM_1	            A large number of workers with many parameter servers.
+# BASIC_GPU	            A single worker instance with a GPU.
+# CUSTOM
+
+# More at https://cloud.google.com/ml-engine/docs/concepts/training-overview
+
 trainingInput:
   scaleTier: BASIC_GPU
+
+
+# While it is possible to ask Google ML Engine to perform hyperparameter tuning
+# on it's own, it's not clear how to set it up so that specific values are
+# tested instead of specifying a range of values.
+
 #  hyperparameters:
 #    goal: MINIMIZE
 #    maxTrials: 2
